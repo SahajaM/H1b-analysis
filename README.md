@@ -17,7 +17,7 @@ To create a mechanism to analyze past years data, specifically to calculate the 
 The following are the instructions to run the file:
 1. Clone the folder $ git clone https://github.com/madhyasa/H1b-analysis.git
 2. Open the h1b-analysis folder $ cd H1b-analysis
-3. Run the python file with the following command the check the ouput in output folder: $ python src/analysis.py input/h1b_input.csv output/top_10_occupations.txt output/top_10_states.txt
+3. Run the python file with the following command and then check the ouput in output folder: $ python src/analysis.py input/h1b_input.csv output/top_10_occupations.txt output/top_10_states.txt
 4. Now go to insight_testsuite folder to test the code $ cd insight_testsuite
 5. To make script an executable program $ chmod +x run_tests.sh
 6. To run the test cases $ ./run_tests.sh
